@@ -5,5 +5,39 @@ body{
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+    color: #fff;
+}
+.home-box,.guest-box{
+    border: 1px solid;
+    background-color: #000;
+    width: 120px;
+    height: 155px;
+    border-radius: 5px;
+    text-align: center;
+}
+#home-score,#guest-score{
+    color: red;   
+    font-size: 40px;
+    
+}
+.stats-box{
+    border: 1px solid;
+    background-color:#9aabd8 ;
+    width: 120px;
+    height: 155px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.score-buttons,.stats-buttons{
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    border: 2px solid #9aabd8 ;
+    color: #9aabd8;
+    background-color:#1b244a ;
 }

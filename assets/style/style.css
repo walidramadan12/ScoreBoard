@@ -1,0 +1,9 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #1b244a;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}

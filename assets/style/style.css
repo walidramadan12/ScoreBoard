@@ -60,11 +60,11 @@ button{
 span:hover{
     color: red;
 }
-#button_score{
+#button_score01,#button_score02,#button_score03,#button_score1,#button_score2,#button_score3{
     width: 35px;
     height: 30px;
 }
-#button_score:hover{
+#button_score01:hover,#button_score02:hover,#button_score03:hover,#button_score1:hover,#button_score2:hover,#button_score3:hover{
     cursor: pointer;
     background-color: white;
 }

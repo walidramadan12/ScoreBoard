@@ -37,6 +37,7 @@ h3{
     height: 155px;
     border-radius: 5px;
     text-align: center;  
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 .score-buttons,.stats-buttons{
     margin-top: 10px;

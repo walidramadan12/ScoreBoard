@@ -15,6 +15,7 @@ let count02 = 0
 // let remainG = count02-count01
 
 let stats = document.getElementById("stats-score")
+let remain = document.getElementById("remain")
 
 function button01() {
     count01=count01+1
@@ -59,12 +60,14 @@ function reset() {
 
 function result(){
     if(count01>count02){
-        stats.innerHTML = "home is higher by:";count01-count02
+        stats.innerHTML = "home is higher by:"
+        remain.innerHTML = count01-count02
         document.getElementById("home").style.color="red"
         document.getElementById("guest").style.color="white"
     }
     else if (count01<count02) {
-        stats.innerHTML = "guest is higher by:";count02-count01
+        stats.innerHTML = "guest is higher by:"
+        remain.innerHTML = count02-count01
         document.getElementById("guest").style.color="red"
         document.getElementById("home").style.color="white"
     }

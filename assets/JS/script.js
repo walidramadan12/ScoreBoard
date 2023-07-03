@@ -56,6 +56,7 @@ function reset() {
     document.getElementById("guest").style.color="white"
     document.getElementById("home").style.color="white"
     stats.innerHTML = "Same Score Both"
+    remain.innerHTML = null
 }
 
 function result(){
@@ -73,6 +74,7 @@ function result(){
     }
     else if(count01=count02){
         stats.innerHTML = "Same Score Both"
+        remain.innerHTML = null
         document.getElementById("guest").style.color="white"
         document.getElementById("home").style.color="white"
     }
